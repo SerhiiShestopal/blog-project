@@ -21,6 +21,14 @@
     flex: 0 0 100%;
     max-width: 100%;
 }
+.col-xs-9 {
+    flex: 0 0 75%;
+        max-width: 75%;
+}
+.col-xs-11 {
+    flex: 0 0 91%;
+        max-width: 91%;
+}
 
 /* tablet */
 @media (min-width:768px) {
@@ -206,13 +214,13 @@
     }
     .header-row {
         display: flex;
-        justify-content: center;
+        
     }
     .cap-center {
         display: flex;
-        justify-content: center;
+        justify-content: ;
     }
-    .menu-wrap {
+    .navigation {
         overflow-x: scroll;
     }
     .slider {
